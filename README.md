@@ -1,4 +1,4 @@
-# Stochastic-Sensing
+# Double-Analyte Stochastic Sensing - MATLAB
 Using these scripts, we can determine the concentrations of two analytes within any solution from data obtained using nanopore stochastic sensing. This requires a set of control calibration data of known concentrations from both analytes, and the experimental data from a solution containing unknown concentrations of analytes.
 
 For our test, we are given six sets of data consisting of control measurements of two analytes. Three different known concentrations of each analyte were tested using a nanopore. The current through the nanopore is sampled every 0.5 millisecond for roughly 20 seconds. The association constant(k_on) and disassociation constant(k_off) of each analyte for the pore is unknown. Our goal is to calculate these constants and use that information to calculate the concentrations of both analytes in an unknown solution.
